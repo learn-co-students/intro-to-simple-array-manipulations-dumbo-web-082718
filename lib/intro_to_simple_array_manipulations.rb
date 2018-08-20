@@ -1,9 +1,9 @@
 
 countries =  countries_in_western_africa = ["Benin", "Carpe Verde", "Gambia", "Liberia", "Mali"]
 
-def using_push(array, string)
-	  string = "Niger"
-	  array.push(string)
+def using_push(array, next_country)
+	  next_country = "Niger"
+	  array.push(next_country)
 	end
 
 # ["Ngolo Keita", "Mafila Kanteé", "Bembeya Jazz"]
