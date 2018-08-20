@@ -11,19 +11,20 @@ def using_push(array, next_country)
 # artists.push(next_artist)
 
 
- $neighborhoods_in_northwest_brooklyn = ["Brooklyn Yards", "Cadman Plaza", "Clinton Hill", "Downtown Brooklyn", "DUMBO"]
- "#_________________________________________"
- 
- def using_unshift(neighborhoods_in_northwest_brooklyny, string)
-	  next_neighbourhood = "Brooklyn Heights"
-	  $neighborhoods_in_northwest_brooklyn.unshift(next_neighbourhood)
+ neighborhoods_in_northwest_brooklyn = ["Brooklyn Yards", "Cadman Plaza", "Clinton Hill", "Downtown Brooklyn", "DUMBO"]
+
+
+	def using_unshift(array, string)
+	  string = "Brooklyn Heights"
+	  array.unshift(string)
 	end
+
 
 	"#_________________________________________"
 	$great_hits_of_the_nineties = ["Baby One More Time", "Smells Like Teen Spirit", "Missing", "Walking On The Sun", "Hard Knock Life", "Losing My Religion"]
 
-	def using_pop(array)
-	 $great_hits_of_the_nineties.pop
+	def using_pop(great_hits_of_the_nineties)
+	 great_hits_of_the_nineties.pop
 	end
 
 "#_________________________________________"
